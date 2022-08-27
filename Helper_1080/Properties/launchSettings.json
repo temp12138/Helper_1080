@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Helper_1080 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Helper_1080 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

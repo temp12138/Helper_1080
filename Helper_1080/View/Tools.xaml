@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Helper_1080.View.Tools"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Helper_1080.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <NavigationView x:Name="NavigationView"
+                    PaneDisplayMode="Top"
+                    IsBackButtonVisible="Collapsed"
+                    SelectionChanged="NavigationView_SelectionChanged"
+                    AlwaysShowHeader="False"
+                    IsSettingsVisible="False"
+                        Loaded="NavigationView_Loaded">
+
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="压缩包信息" Tag="rar"/>
+            </NavigationView.MenuItems>
+
+            <Frame x:Name="ContentFrame"/>
+        </NavigationView>
+    </Grid>
+</Page>
