@@ -8,6 +8,6 @@
     mc:Ignorable="d">
 
     <Grid>
-        <TextBlock Text="主页"/>
+        <TextBlock Text="暂无内容" FontSize="30" Foreground="{ThemeResource TemporaryTextFillColorDisabled}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </Page>
