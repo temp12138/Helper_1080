@@ -80,7 +80,7 @@ namespace Helper_1080
 
             // Only navigate if the selected page isn't currently loaded.
             if (!(_page is null) && !Type.Equals(preNavPageType, _page))
-            {
+        {
                 ContentFrame.Navigate(_page, null, transitionInfo);
             }
         }
